@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBroker.DataProcessor", "src\MBroker.DataProcessor\MBroker.DataProcessor.csproj", "{5CFBDF4D-8497-4511-8E7D-C91AAC3CC2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBroker.DataProcessor.Ioc", "src\MBroker.DataProcessor.Ioc\MBroker.DataProcessor.Ioc.csproj", "{FD24CAC8-B3F5-433B-A96B-D1AD94F211DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBroker.DataProcessor.Domain", "src\MBroker.DataProcessor.Domain\MBroker.DataProcessor.Domain.csproj", "{F5E326C4-FA9D-44CC-83D2-CDBD4A399DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBroker.DataProcessor.Data", "src\MBroker.DataProcessor.Data\MBroker.DataProcessor.Data.csproj", "{B6E469F2-84F3-45E6-9EB1-CB4EB1035C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBroker.DataProcessor.Services", "src\MBroker.DataProcessor.Services\MBroker.DataProcessor.Services.csproj", "{7F7BFC4C-E6E9-41CA-B861-583E4B498AA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CFBDF4D-8497-4511-8E7D-C91AAC3CC2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFBDF4D-8497-4511-8E7D-C91AAC3CC2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFBDF4D-8497-4511-8E7D-C91AAC3CC2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFBDF4D-8497-4511-8E7D-C91AAC3CC2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD24CAC8-B3F5-433B-A96B-D1AD94F211DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD24CAC8-B3F5-433B-A96B-D1AD94F211DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD24CAC8-B3F5-433B-A96B-D1AD94F211DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD24CAC8-B3F5-433B-A96B-D1AD94F211DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E326C4-FA9D-44CC-83D2-CDBD4A399DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E326C4-FA9D-44CC-83D2-CDBD4A399DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E326C4-FA9D-44CC-83D2-CDBD4A399DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E326C4-FA9D-44CC-83D2-CDBD4A399DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E469F2-84F3-45E6-9EB1-CB4EB1035C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E469F2-84F3-45E6-9EB1-CB4EB1035C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E469F2-84F3-45E6-9EB1-CB4EB1035C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E469F2-84F3-45E6-9EB1-CB4EB1035C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7BFC4C-E6E9-41CA-B861-583E4B498AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7BFC4C-E6E9-41CA-B861-583E4B498AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7BFC4C-E6E9-41CA-B861-583E4B498AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7BFC4C-E6E9-41CA-B861-583E4B498AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33B76202-90C9-4FF0-B70C-54F53731D359}
+	EndGlobalSection
+EndGlobal
